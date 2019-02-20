@@ -4,6 +4,7 @@ firebase.auth().onAuthStateChanged(function (user) {
     if (user) {
         // User is signed in.
         window.location.href = 'pages/profile.php';
+        // TODO fix Error: A network error (such as timeout, interrupted connection or unreachable host) has occurred.
     } else {
         // User is signed out.
         window.location.href = 'index.html';
