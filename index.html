@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+ <div class="container">
+     <div class="col-sm-4 col-sm-offset-4 form-div">
+         <form>
+             <div class="form-group">
+                 <label for="exampleInputEmail1">Email address</label>
+                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Enter email" autocomplete="off">
+             </div>
+             <div class="form-group">
+                 <label for="exampleInputPassword1">Password</label>
+                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+             </div>
+             <button type="submit" class="btn btn-primary">Log In</button>
+         </form>
+     </div>
+ </div>
+</body>
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.3/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.2/firebase-auth.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyAiItFWNzc7T-GUMDm-rTd1ZbX-fC54xQU",
+        authDomain: "kate-b61d6.firebaseapp.com",
+        databaseURL: "https://kate-b61d6.firebaseio.com",
+        projectId: "kate-b61d6",
+        storageBucket: "kate-b61d6.appspot.com",
+        messagingSenderId: "631895753614"
+    };
+    firebase.initializeApp(config);
+</script>
+</html>

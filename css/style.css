@@ -1,0 +1,24 @@
+body {
+    font-family: "Roboto", "Helvetica Neue", sans-serif !important;
+    background-color: #f2f7fa;
+}
+
+.form-div{
+    margin-top: 150px;
+}
+
+.form-div .form-group input{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    padding: 18px;
+    outline: none;
+    width: 100%;
+}
+
+.form-div button {
+    width: 100%;
+    border: 1px solid #5d8ffc;
+    border-radius: 5px;
+    padding: 12px;
+}
