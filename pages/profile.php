@@ -40,6 +40,8 @@
 </body>
 <script src="../js/jquery-3.3.1.js"></script>
 <script src="../js/bootstrap.min.js"></script>
+<script src="../js/index.js"></script>
+
 <script src="https://www.gstatic.com/firebasejs/5.8.3/firebase.js"></script>
 <script src="https://www.gstatic.com/firebasejs/5.8.2/firebase-auth.js"></script>
 <script>
